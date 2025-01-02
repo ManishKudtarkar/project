@@ -1,12 +1,8 @@
-	/* If you are compiling this code command line, be sure to
-	   use the "-ml" parameter (large memory model).
-	   Otherwise, the program will compile and link, but will
-	   lock up your system. */
 
 	#include <conio.h>			   // clrscr(), getch(), kbhit()
 	#include <dos.h>  			   // MK_FP, geninterrupt()
-	#include <iostream.h>   	   // cout
-	#include <stdio.h>			   // fopen(), fread(), fclose(), FILE
+	#include <iostream.h>   	   
+	#include <stdio.h>			   
 	#include <graphics.h>
 	#include <time.h>
 	#include <string.h>
